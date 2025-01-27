@@ -4,8 +4,6 @@ const prompt = require('prompt-sync')();
 console.log("Welcome to Rock paper and Scissor Game!!\n");
 let userChoice,userWon=0,compWon=0;
 while(true){
-    
-    
     console.log("You won: "+userWon+ " matches.");
     console.log("Opponent won: "+compWon+ " matches.");
     console.log("Please Choose one from the following:");
@@ -80,34 +78,30 @@ while(true){
         }
     }
     console.log();
+
     if(compWon===5) {
         console.log("Computer won this match, better luck next time.");
     }
     else if(userWon===5){
         console.log("You won this match, Congratulations.");
     }
-    
     if(compWon===5 || userWon ===5){
-        
         while(true){
-        console.log("Wanna retry?");
-        console.log("1. Yes \n2. No");
-            let input = Number(prompt());
-        if(input === 1) {
-            compWon=0;
-            userWon=0;
-            break;
+            console.log("Wanna retry?");
+            console.log("1. Yes \n2. No");
+                let input = Number(prompt());
+            if(input === 1) {
+                compWon=0;
+                userWon=0;
+                break;
+            }
+            else if(input === 2){
+                process.exit(0);
+            }
+            else {
+                console.log("Invalid Option");
+                continue;
+            }
         }
-        else if(input === 2){
-            process.exit(0);
-        }
-        else {
-            console.log("Invalid Option");
-            continue;
-        }
-        }
-    }
-    
-    
-    
+    }    
 }
