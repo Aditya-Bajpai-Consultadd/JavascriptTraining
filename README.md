@@ -3,6 +3,8 @@
 To run this file in your system, do install the following dependency before hand- 
 1. prompt-sync
 
+###  Note- Only the first folder i.e. "Javascript Assignment 1" is for Task 1. Rest all is for Task 2 - Todo Application
+
 ## Task 2 - Todo Application with React and TS
 
 To run this file in your system, do install all the dependencies by running npm install Command. 
