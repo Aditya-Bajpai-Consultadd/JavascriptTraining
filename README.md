@@ -14,5 +14,5 @@ Here is a screenshot of how the application Interface Looks like -
 2. You can Add new Tasks to the list.
 3. You can delete the tasks from your list.
 
-This is a responsive mobile-friendly application as well.
+
 ![image](https://github.com/user-attachments/assets/a69ff5e6-827f-4478-bf65-9fc4981afbde)
