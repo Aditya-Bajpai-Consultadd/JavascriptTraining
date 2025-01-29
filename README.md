@@ -15,4 +15,5 @@ Here is a screenshot of how the application Interface Looks like -
 3. You can delete the tasks from your list.
 
 
-![image](https://github.com/user-attachments/assets/a69ff5e6-827f-4478-bf65-9fc4981afbde)
+![image](https://github.com/user-attachments/assets/55737267-3078-4837-98cb-4ebafd65f52d)
+
